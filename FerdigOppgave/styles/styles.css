@@ -1,0 +1,91 @@
+*, *::after, *::before {
+  box-sizing: flex;
+  font-family: Arial;
+}
+
+body { 
+  display: inline-block;
+  margin: 8px;
+  background-color:rgb(126, 126, 126);
+  align-items: center;
+
+
+}
+
+
+
+#chart { 
+  display: inline-block;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  background-color: rgb(126, 126, 126);
+
+}
+#input{
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px;
+
+
+}
+#button{
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  background-color:transparent;
+  stroke: rgb(255, 239, 239);
+  transition: stroke-dasharray .3s ease;
+  stroke-width: 1px;
+  border-color: black;
+}
+
+.rect.active {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  stroke: rgb(25, 23, 25);
+  transition: stroke-dasharray .3s ease;
+  stroke-width: 1px;
+
+}
+
+.erroractive {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  background-color:red;
+  color: rgb(0, 0, 0);
+  stroke: rgb(255, 239, 239);
+  transition: stroke-dasharray .3s ease;
+  stroke-width: 1px;
+  border-color: black;
+}
+
+
+.errorbased {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  background-color: transparent;
+  color: transparent;
+
+
+
+}
